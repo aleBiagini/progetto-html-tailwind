@@ -18,7 +18,8 @@
     <button class="md:hidden" aria-label="Open menu"></button>
     <i class="bi bi-list"></i>
   </header>
-   <section class="relative h-screen bg-[url('https://placehold.co/1920x1080')] bg-cover bg-center">
+   <!-- Hero section-->
+  <section class="relative h-screen bg-[url('https://placehold.co/1920x1080')] bg-cover bg-center">
     <div class="absolute inset-0 bg-black/50"></div>
     <div class="relative z-10 flex items-center justify-center h-full px-4">
       <div class="text-center text-white max-w-3xl space-y-6">
@@ -56,6 +57,24 @@
             <a href="#contact"
                 class="inline-block bg-primary-600 text-black px-6 py-2 rounded-xl shadow hover:bg-primary-700 transition">Gallery</a>
         </div>
+    <!-- Maryna. Contact Form (Sezione 7) -->
+    <section id="contact" class="container mx-auto py-20 px-4 scroll-mt-24">
+        <h2 class="text-3xl md:text-4xl font-bold text-center mb-10">Contattaci</h2>
+        <form method="POST" class="max-w-3xl mx-auto grid gap-6">
+            <div class="grid md:grid-cols-2 gap-6">
+                <input type="text" placeholder="Il tuo nome"
+                    class="w-full p-3 border border-neutral-300 rounded-lg focus:ring-2 focus:ring-primary-600 focus:border-primary-600 outline-none">
+                <input type="email" placeholder="La tua email"
+                    class="w-full p-3 border border-neutral-300 rounded-lg focus:ring-2 focus:ring-primary-600 focus:border-primary-600 outline-none">
+            </div>
+            <textarea rows="6" placeholder="Il tuo messaggio"
+                class="w-full mt-6 p-3 border border-neutral-300 rounded-lg focus:ring-2 focus:ring-primary-600 focus:border-primary-600 outline-none"></textarea>
+        <div class="text-center">
+      <button type="submit" class="inline-block bg-primary-700 px-8 py-3 text-black rounded-xl shadow hover:bg-primary-800 transition">
+        Invia
+      </button>
+    </div>
+            </form>
     </section>
 </body>
 </html>
