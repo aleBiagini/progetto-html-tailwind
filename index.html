@@ -8,18 +8,23 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="font-sans antialiased text-neutral-800"></body>
-  <header>
-    <a href="index.html">
-      <img src="emoji-wink.svg" alt="Icona" class="w-10 h-10">
-    </a>
-    <nav class="hidden md:flex space-x-6">
-      <a href="#about" class="hover:text-primary-600 transition">Chi siamo</a>
-      <a href="#gallery" class="hover:text-primary-600 transition">Galleria</a>
-      <a href="#contact" class="hover:text-primary-600 transition">Contatti</a>
-    </nav>
-    <button class="md:hidden" aria-label="Open menu"></button>
-    <i class="bi bi-list"></i>
-  </header>
+    <header>
+        <div class="container mx-auto flex justify-between items-center py-4 px-4">
+            <a href="#" class="font-bold text-xl">Logo Azienda</a>
+            <nav class="hidden md:flex">
+                <ul class="flex gap-6">
+                    <li><a href="#about" class="hover:text-primary-600 transition">Chi siamo</a></li>
+                    <li><a href="#gallery" class="hover:text-primary-600 transition">Gallery</a></li>
+                    <li><a href="#contact" class="hover:text-primary-600 transition">Contatti</a></li>
+                </ul>
+            </nav>
+            <button class="md:hidden" aria-label="Open menu"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                </svg></button>
+        </div>
+    </header>
    <!-- Hero section-->
   <section class="relative h-screen bg-[url('https://placehold.co/1920x1080')] bg-cover bg-center">
     <div class="absolute inset-0 bg-black/50"></div>
